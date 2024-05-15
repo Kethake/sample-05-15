@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Oswald:wght@200..700&display=swap');
+
+body{
+    background-color: black;
+    background-image: url(/images/calm.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    background-color: white; color: gray ; text-align: center;
+    font-family: "Jacquard 12", system-ui;
+    
+}
+p{
+    background-color: gray ; color: aqua;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+#sampleId{
+    background-color: black;
+    color: red;
+    margin: 10px;
+    /*padding-left : 100px;
+    padding-top : 20px;
+    padding: 100px 200px 20px 500px;*/
+
+    margin-left: 100px;
+    margin-right: 20px;
+
+    border: 20px solid red;
+}
+.sample_class{
+    background-color:yellowgreen;
+    color: peru;
+}
+#p{
+    background-color: grey;
+    color: whitesmoke;
+    margin: 10px;
+    /*padding-left : 100px;
+    padding-top : 20px;
+    padding: 100px 200px 20px 500px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 2px solid red;
+}
+.box01{
+    width: 100px;
+    height: 500px;
+    left: 90%;
+    right: 60%;
+    position: fixed;
+}
+.box02{
+    top: 100px;
+}
+.box03{
+    margin: 100px;
+    position: relative;
+    bottom: 100px;
+}
+.box04{
+    width: 100px;
+    height: 200px;
+    background-color: bisque;
+    position: sticky;
+    top: 30px;
+    z-index: 1;
+
+}
+.box05{
+    width: 100px;
+    height: 200px;
+    background-color: bisque;
+    position: sticky;
+    top: 30px;
+    left: 100px;
+    z-index: -1;
+
+}
